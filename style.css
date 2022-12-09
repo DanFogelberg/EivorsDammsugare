@@ -1,10 +1,48 @@
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
 header{
-
-
     background-color: green;
     height: 100px;
 }
 
+/* Hero */
+
+.hero-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20rem 5rem;
+}
+
+.hero-left{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+
+.hero-right{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+}
+
+.hero-bottom{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin: auto;
+}
+
+.hero-grid img{
+    width: 100%;
+    max-width: 18rem;
+    margin: auto;
+}
 
 footer{
     background-color: green;
