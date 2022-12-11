@@ -1,9 +1,17 @@
 .reviews{
-    display: flex;
+    
     width: 100%;
+
+}
+
+.scroller{
+    width:100%;
+    display: flex;
+
 }
 
 .review{
+
     flex: 1;
     display:flex;
     flex-direction: column;
@@ -15,4 +23,20 @@
 .review img{
 
         width: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+    .scroller{
+        width: 300%;
+    
+        
+    
+    }
+
+    .reviews{
+        overscroll-behavior-x: contain;
+        overflow-x: scroll;
+    }
+
 }
