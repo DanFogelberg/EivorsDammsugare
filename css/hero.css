@@ -1,0 +1,44 @@
+.hero{
+    margin-bottom: 25px;
+}
+
+.hero-grid{
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+}
+
+.hero-left{
+    grid-column-start: 2;
+}
+
+.hero-right{
+    grid-column-start: 3;
+}
+
+.hero-bottom{
+    display: block;
+    margin: auto;
+}
+
+.hero-bottom p{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.hero-button{
+    all: unset;
+    display: block;
+    background-color: var(--main-green);
+    padding: 5px 40px;
+    border-radius: 20px;
+    font-size: 22px;
+    margin: auto;
+    color: white;
+}
+
+.hero-grid img{
+    width: 100%;
+    max-width: 18rem;
+    margin: auto;
+}
+
