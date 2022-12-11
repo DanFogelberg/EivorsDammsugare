@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 768px){
     .perks{
         flex-direction: row;
     }
@@ -21,7 +21,7 @@
 }
 
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 768px){
     .perk{
        margin-left: 10px;
        margin-right: 10px;
@@ -65,4 +65,47 @@
 .perk img{
     width: 100%;
 }
+
+
+
+
+@media screen and (min-width: 768px) {
+    .perk p{
+        height: 100px;
+    
+    }
+
+}
+@media screen and (min-width: 841px) {
+    .perk p{
+        height: 80px;
+    
+    }
+
+}
+@media screen and (min-width: 1455px) {
+    .perk p{
+        height: 60px;
+    
+    }
+
+}
+
+
+
+@media screen and (max-width: 976px) and (min-width: 768px) {
+    .perk h2{
+        height: 40px;
+    
+    }
+
+}
+
+
+
+
+/* 
+@media screen and (max-width: 1025px) {
+    
+} */
 
