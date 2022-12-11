@@ -4,6 +4,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-family: "OpenSans";
 
 
 }
@@ -24,23 +25,18 @@ footer{
     margin-bottom: 16px;
     padding-left: 20px;
 
-
-    /* font-family: inter;
-    font-variation-settings: "wght" 400;
-    font-size: 16px;
-    line-height: 20px; */
+    font-variation-settings: "wght" 500;
     border-bottom: 1px solid black;    
 }
 
 .footer-text{
     margin-bottom: 16px;
     margin-top: 0px;
-    padding-left: 20px; /* Make css-var here */
+    padding-left: 20px; /* Make css-var here? */
 /* 
-    font-family: inter;
+
     font-variation-settings: "wght" 300;
-    font-size: 16px;
-    line-height: 20px; */
+    font-size: 16px; */
 
 }
 
