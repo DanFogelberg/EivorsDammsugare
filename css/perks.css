@@ -1,0 +1,68 @@
+.perks{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px){
+    .perks{
+        flex-direction: row;
+    }
+
+}
+
+.perk{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "OpenSans";
+
+}
+
+
+@media screen and (min-width: 600px){
+    .perk{
+       margin-left: 10px;
+       margin-right: 10px;
+       flex: 1;
+    }
+
+}
+
+
+
+.perk h2{
+    color: var(--main-green);
+    
+    border-width: 0px;
+    border-top: 1px;
+    border-style: solid;
+    border-color: black;
+
+    padding-left: 10%; /* More exact number? Perhaps in rem/px */
+    padding-right: 10%;
+    padding-top: 10px; /* Distance to line */
+    margin-bottom: 30px;
+
+    font-size: 20px;
+    font-variation-settings: "wght" 400;
+
+
+}
+
+.perk p{
+    margin-top: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+    font-size: 16px;
+    font-variation-settings: "wght" 400;
+
+}
+
+
+.perk img{
+    width: 100%;
+}
+
