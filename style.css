@@ -1,13 +1,28 @@
+:root {
+
+
+    --main-green: #4D9A04;
+}
+
+
+body{
+    margin:0;
+}
+
 header{
 
 
-    background-color: green;
-    height: 100px;
+    background-color:var(--main-green);
+    width: 100%;
+    height: 47px;
+    display:flex;
+    justify-content:flex-end;
 }
 
 
 footer{
-    background-color: green;
-    height: 100px;
+    background-color: var(--main-green);
+    width: 100%;
+    height: 47px;
 
 }
