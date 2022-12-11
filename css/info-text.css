@@ -1,0 +1,17 @@
+.info-text h2{
+    color: var(--main-green);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-variation-settings: "wght" 400;
+}
+
+.info-text p{
+    margin: 0 5%;
+}
+
+hr{
+    width: 90%;
+    border: none;
+    border-top: solid 1px black;
+}
