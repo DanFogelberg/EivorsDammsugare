@@ -19,6 +19,14 @@
 
 }
 
+.review p{
+
+    flex: 1;
+    font-family: OpenSans;
+    width: 80%;
+
+}
+
 
 .review img{
 
