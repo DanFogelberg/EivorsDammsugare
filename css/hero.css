@@ -1,5 +1,5 @@
 .hero{
-    margin-bottom: 25px;
+    margin-bottom: 75px;
 }
 
 .hero-grid{
@@ -42,3 +42,13 @@
     margin: auto;
 }
 
+@media screen and (min-width: 480px) {
+    .hero-grid{
+        grid-template-columns: 25% 1fr 1fr 25%;
+    }
+
+    .hero-grid img{
+        max-width: 300px;
+        
+    }
+}

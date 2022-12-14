@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    margin-bottom: 65px;
     font-family: "OpenSans";
 
 }
@@ -106,9 +106,7 @@
     font-family: "OpenSans";
     flex-direction: column;
     align-items: center;
-    
-
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .buy-section p{
@@ -116,16 +114,16 @@
     font-variation-settings: "wght" 600;
 
 }
-.buy-section button{
+
+
+/*.buy-section button{
     background-color: #4D9A04;
     width: 200px;
     height: 50px;
     color: white;
     border-radius: 25px;
     border: 0px;
-}
-
-
+}*/
 
 @media screen and (max-width: 767px) {
     .perk:nth-child(2){
