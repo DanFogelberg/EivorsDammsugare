@@ -67,38 +67,7 @@
 
 
 
-/* 
-@media screen and (min-width: 768px) {
-    .perk p{
-        height: 100px;
-    
-    }
 
-}
-@media screen and (min-width: 841px) {
-    .perk p{
-        height: 80px;
-    
-    }
-
-}
-@media screen and (min-width: 1455px) {
-    .perk p{
-        height: 60px;
-    
-    }
-
-}
-
-
-
-@media screen and (max-width: 976px) and (min-width: 768px) {
-    .perk h2{
-        height: 40px;
-    
-    }
-
-} */
 
 
 .buy-section{
@@ -109,21 +78,19 @@
     margin-bottom: 50px;
 }
 
+.buy-section h2{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
 .buy-section p{
     font-size: 20;
     font-variation-settings: "wght" 600;
 
 }
 
-
-/*.buy-section button{
-    background-color: #4D9A04;
-    width: 200px;
-    height: 50px;
-    color: white;
-    border-radius: 25px;
-    border: 0px;
-}*/
 
 @media screen and (max-width: 767px) {
     .perk:nth-child(2){

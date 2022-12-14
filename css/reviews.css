@@ -4,6 +4,12 @@
 
 }
 
+.stars{
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+
 .scroller{
     width:100%;
     display: flex;
@@ -34,9 +40,14 @@
 }
 
 
+.review h2{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
 @media screen and (max-width: 767px) {
     .scroller{
-        width: 300%;
+        width: 270%;
     
         
     
