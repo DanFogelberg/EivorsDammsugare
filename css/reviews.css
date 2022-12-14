@@ -5,7 +5,7 @@
 }
 
 .stars{
-    margin-top: 20px;
+    margin-top: 12px;
     margin-bottom: 0px;
 
 }
@@ -42,7 +42,7 @@
 
 .review h2{
     margin-top: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 @media screen and (max-width: 767px) {
